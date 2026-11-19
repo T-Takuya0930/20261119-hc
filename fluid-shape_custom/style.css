@@ -6,7 +6,8 @@
 
 body {
   margin: 0;
-  color: #111;
+  color: #4F5B93;
+  background: #F2F4F8;
   font-size: 16px;
   min-width: 1200px
 }
@@ -34,6 +35,7 @@ header {
 
 .links .logo {
   font-size: 48px;
+  color: #4F5B93;
 }
 
 .links nav {
@@ -45,6 +47,10 @@ header {
   color: #fff;
 }
 
+.links nav a:hover {
+  color: #D9DEFA;
+}
+
 .main-copy {
   width: 100%;
   font-size: 64px;
@@ -52,6 +58,7 @@ header {
   text-align: center;
   margin: 1em 0 0;
   letter-spacing: .1em;
+  color: #4F5B93;
 }
 
 .sub-copy {
@@ -59,6 +66,7 @@ header {
   position: absolute;
   left: 200px;
   bottom: 0;
+  color: #777BB4;
 }
 
 main {
@@ -73,10 +81,14 @@ section {
 h2 {
   font-size: 36px;
   margin-bottom: 1em;
+  color: #4F5B93;
+  padding-left: 16px;
+  border-left: 8px solid #777BB4;
 }
 
 .text-area p {
   font-size: 20px;
+  color: #5A6187;
 }
 
 .feature {
@@ -109,14 +121,14 @@ h2 {
 }
 
 .center {
-  background: url(img/center.svg) center/contain no-repeat;
+  background: url(img/left.svg) center/contain no-repeat;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .left {
-  background: url(img/left.svg) center/contain no-repeat;
+  background: url(img/center.svg) center/contain no-repeat;
   left: 0;
   bottom: 0;
 }
